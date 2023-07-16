@@ -124,6 +124,50 @@ main{
 }
 /* teams style end */
 
+
+/* facts style start */
+
+.facts-title{
+  color: #131313;
+  font-size: 45px; 
+  font-weight: 700; 
+}
+
+.facts-description{
+    color:#727272 ;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.facts-cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 100px 100px;
+}
+
+.facts-cards-container .card{
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    padding: 40px 40px;
+}
+
+.facts-cards-container .card-stats{
+    font-size: 45px;
+    font-weight: 600;
+    color: #424242;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.facts-cards-container .card-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+    margin-top: 5px;
+
+}
+
 /* Responsive media queries start*/
 /* mobile devices */
 
